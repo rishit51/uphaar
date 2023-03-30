@@ -1,0 +1,249 @@
+body{
+    text-align: center;
+}
+
+/*header*/
+
+.img1{
+    height:3rem;
+    width: 12rem;
+   
+}
+.navbar{
+    background-color: rgb(32 20 80);
+    
+}
+.nav-link{
+    color: white;
+}
+.nav-link:hover{
+    color: rgb(255, 196, 2);
+}
+
+.hyperContribute{
+    text-decoration: none;
+    color: black;
+}
+
+.hyperContribute:hover{
+    text-decoration: none;
+    color: rgb(251, 108, 244);
+}
+
+.card-title,.card-title3{
+    color: black;
+}
+.card-text{
+   color: darkgrey;
+}
+.uphaarDescription{
+  margin: 5% 10% 1%;
+  
+}
+
+/*carousel*/
+.d-block{
+    height: 650px;
+}
+
+.awesome{
+    color: rgb(251, 183, 25);
+    margin-bottom: 1rem;
+}
+.column{
+    padding: 4%;  
+}
+.feature-title{
+    font-size: 1.5rem;
+    color:rgb(251, 108, 244);
+}
+.para1{
+    color: rgb(160, 156, 156);
+}
+.carousel-head{
+    margin: 5% auto 0;
+}
+/*footer*/
+.container-fluid{
+    padding: 7% 15%;
+
+    background-color: rgb(251, 108, 244);
+}
+.social{
+    padding: 20px 10px;
+}
+.social-link{
+    color: rgb(32 20 80);
+}
+
+.social-link:hover{
+    color: white;
+}
+
+
+/* register */
+.choose1{
+   
+}
+
+.choose2{
+   
+}
+
+.btnChoose1{
+   padding: 5%;
+   background-color:rgb(251, 108, 244); 
+}
+
+.btnChoose2{
+    padding: 5%;
+    background-color: rgb(32 20 80);
+ }
+.row{
+    margin: 10%;
+    color: aliceblue;
+}
+.btnChoose1:hover,.btnChoose2:hover{
+    padding: 5%;
+    background-color:rgb(251, 208, 108); 
+    
+ }
+
+ .login{
+    text-decoration: none;
+    color: aliceblue;
+ }
+ .login:hover{
+    text-decoration: none;
+    color: black;
+ }
+
+
+ /*Contribute.login */
+
+ #countriLogin,#needyLogin{
+   margin-top: 5%;
+    margin-left: 40%;
+    margin-right: 40%;
+    
+ }
+ .countribute-login{
+    background-color: rgb(32 20 80);
+    padding: 20% 5% 3%;
+    color: aliceblue;
+ }
+ .fcPassword{
+    color: pink;
+    text-decoration: none;
+ }
+ .fcPassword:hover{
+    color: white;
+    text-decoration: none;
+ }
+
+ /*Needy.login*/
+
+ .needy-login{
+    background-color: pink;
+    padding: 20% 5% 3%;
+ }
+ .fPassword{
+    color: rgb(32 20 80);
+    text-decoration: none;
+ }
+ .fnPassword:hover{
+    color: aliceblue;
+    text-decoration: none;
+ }
+
+ /*Dropping-Centre*/
+ 
+.dropImage{
+    height: 100%;
+    width: 100%;
+}
+.card-bodydrop{
+    color: black;
+    text-align: left;
+    padding: 10% 15%;
+}
+ 
+ /*formContribute*/
+
+ #contributeForm{
+    text-align: left;
+ }
+
+
+ /*formNeedy*/
+
+ .needs-validation{
+    margin: 5% 20%;
+ }
+ .genMove{
+    margin-left: 2%;
+ }
+.needyHeader{
+    text-align: center;
+    margin: 2% 0;
+    color: rgb(255, 83, 201);
+    background-color:rgb(255, 226, 7);
+    padding: 0.5% 0.5%;
+}
+
+/*formContribute*/
+
+.contributeHeader{
+    text-align: center;
+    margin: 2% 0;
+    color: rgb(32 20 80);
+    background-color:rgb(255, 226, 7);
+    padding: 0.5% 0.5%;
+}
+.contriAcknowledge{
+    color: blue;
+    text-align: center;
+    margin: 3% 0;
+}
+/*forgetNeedy*/
+.containerForgot{
+    margin: 5% 35%;
+    border: 2px solid black;
+    border-radius: 2%;
+    
+}
+.forgetCode{
+    display: block;
+    
+}
+.forgethHeading{
+    margin: 1% auto;
+    color: red;
+}
+/*About Us*/
+.img,.card-img{
+    height: 20rem;
+    
+}
+.img,.card-title{
+    margin: 5% auto;
+    font-size: 5rem;
+    color: aliceblue;
+    font-weight: bolder;
+    -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-color: rgb(255, 83, 201);
+    padding: 10% auto;
+}
+.card{
+    margin-bottom: 5%;
+}
+/*contact us*/
+
+/*Need*/
+.containerNeed{
+  background-color: pink;
+ 
+  margin: 3% 16%;
+ font-size: 1.2rem;
+  padding: .5% 0;
+}
