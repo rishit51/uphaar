@@ -19,14 +19,14 @@ sound = os.path.join(sound_folder, 'beep.wav')
 
 def index(request):
     scanned = LastFace.objects.all().order_by('date').reverse()
-    present = Profile.objects.filter(present=True).order_by('updated').reverse()
-    absent = Profile.objects.filter(present=False).order_by('shift')
-    context = {
-        'scanned': scanned,
-        'present': present,
-        'absent': absent,
-    }
-    return render(request, 'core/index.html', context)
+    #present = Profile.objects.filter(present=True).order_by('updated').reverse()
+    #absent = Profile.objects.filter(present=False).order_by('shift')
+   # context = {
+  #      'scanned': scanned,
+  #      'present': present,
+  #      'absent': absent,
+  #  }
+    return render(request, 'core/index.html')
 
 
 def ajax(request):
@@ -53,7 +53,7 @@ def scan(request):
         known_face_names.append(f'{person}'[:-4])
 
 
-    video_capture = cv2.VideoCapture(0)
+    video_capture = cv2.VideoCapture('http://192.168.239.32:8080/video')
 
     face_locations = []
     face_encodings = []

@@ -1,5 +1,17 @@
+
 body{
     text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+.guide{
+    z-index: 1;
+  top:590px;
+  left:0px;
+  position: fixed;
+}
+.guideGirl{
+    height: 9rem;
+    width: 8.5rem;
 }
 
 /*header*/
@@ -11,13 +23,23 @@ body{
 }
 .navbar{
     background-color: rgb(32 20 80);
-    
+    width: 100%;
+   
 }
+#navbarSupportedContent{
+      text-align: center;  
+}
+
 .nav-link{
     color: white;
 }
 .nav-link:hover{
     color: rgb(255, 196, 2);
+}
+
+.form-inline{
+  display: inline;
+ 
 }
 
 .hyperContribute{
@@ -27,21 +49,39 @@ body{
 
 .hyperContribute:hover{
     text-decoration: none;
-    color: rgb(251, 108, 244);
+    color: rgb(255, 255, 255);
+  
 }
 
 .card-title,.card-title3{
     color: black;
 }
 .card-text{
-   color: darkgrey;
-}
-.uphaarDescription{
-  margin: 5% 10% 1%;
+   color: rgb(116, 114, 114);
+   text-align: justify;
   
 }
-
+.uphaarDescription{
+  margin: 10% 7%;
+  font-size: 1.8rem;
+  line-height: 2.5rem;
+}
+.card-img-top{
+    height: 12rem;
+    
+}
+.card-body{
+    background-color: hwb(290 0% 0% / 0.049);
+   
+}
 /*carousel*/
+.carousel-indicators {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23f00' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
+}
+
+.carousel-indicators{
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23f00' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
+}
 .d-block{
     height: 650px;
 }
@@ -49,6 +89,7 @@ body{
 .awesome{
     color: rgb(251, 183, 25);
     margin-bottom: 1rem;
+    font-size: 100px;
 }
 .column{
     padding: 4%;  
@@ -63,23 +104,92 @@ body{
 .carousel-head{
     margin: 5% auto 0;
 }
+#middleSection{
+    margin: 5% 0% 20%;
+   
+    background-color: rgb(255, 200, 0);
+}
+.middleImg{
+    padding: 1% 0;
+}
+#boxMid,.card{
+    margin: 3% 1%;
+    padding: 3% 3%;
+}
+.waysHeading{
+   
+    margin: 7rem auto 5rem;
+}
+#row-ways{
+    margin: 0 auto;
+    
+}
+
 /*footer*/
 .container-fluid{
-    padding: 7% 15%;
-
+   
+   
     background-color: rgb(251, 108, 244);
 }
 .social{
-    padding: 20px 10px;
+    padding: 25px 25px;
 }
-.social-link{
-    color: rgb(32 20 80);
+.social-link1{
+    color: rgb(0, 183, 255);
+    font-size: 1.5rem;
+}
+.social-link2{
+    color: rgb(1, 69, 255);
+    font-size: 1.5rem;
+}
+.social-link3{
+    color: #e2018f;
+    font-size: 1.5rem;
+}
+.social-link4{
+    color: rgb(255, 0, 0);
+    font-size: 1.5rem;
 }
 
-.social-link:hover{
-    color: white;
+.social-link1:hover,.social-link2:hover,.social-link3:hover,.social-link4:hover{
+   
+    color: gold;
 }
-
+.mainMap{
+    border-radius: 15px;
+    width: 20rem;
+    height: 15rem;
+    
+}
+.foot-para,.foot-heading{
+    text-align: left;
+}
+.list{
+    padding: 3% 5%;
+    
+}
+#foot,.row{
+    margin: 4rem 0 0 0;
+}
+.embed-responsive{
+    width:80%;
+    height: 35%;
+    margin: auto 10% 10%;
+    
+}
+.QR{
+    height: 10rem;
+    width: 10rem;
+   display: block;
+}
+.footLine{
+    background-color: white;
+   
+}
+.qrLabel1,.qrLabel2{
+    float: left;
+    margin-bottom: 0;
+}
 
 /* register */
 .choose1{
@@ -222,21 +332,29 @@ body{
 }
 /*About Us*/
 .img,.card-img{
-    height: 20rem;
-    
+    height: 50rem;
+    border: 0;
+    width: 100%;
+    margin-bottom: 8rem;
 }
 .img,.card-title{
-    margin: 5% auto;
-    font-size: 5rem;
+    margin: 20% auto;
+    font-size: 8rem;
     color: aliceblue;
     font-weight: bolder;
     -webkit-text-stroke-width: 3px;
     -webkit-text-stroke-color: rgb(255, 83, 201);
     padding: 10% auto;
 }
-.card{
+.card-about{
     margin-bottom: 5%;
+    
 }
+.card-title1{
+    background-color: rgb(255, 83, 201);
+    padding: 5% 5%;
+}
+
 /*contact us*/
 
 /*Need*/
@@ -247,3 +365,167 @@ body{
  font-size: 1.2rem;
   padding: .5% 0;
 }
+
+
+/*Media Querry*/
+@media (max-width: 900px) {
+    .d-block{
+        height: 250px;
+    }
+    .uphaarDescription{
+        font-size: 1rem;
+        line-height: 20px;
+    }
+    .awesome{
+        font-size: 60px;
+    }
+    .guideGirl{
+        height: 6rem;
+        width: 5.5rem;
+        margin-top: 55px;
+    }
+    .navbar-toggler{
+          margin-left: 15%;
+    }
+    #team-info{
+        margin-left: 25%;
+        background-color: rgb(255, 255, 255)
+      }
+  .profilebox {
+    margin-left: 1400px;
+  }
+}
+
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,400i,500,500i,700,900');
+ @import url('https://fonts.googleapis.com/css?family=Raleway:100,100i,300,400,500,600,700,800');
+*, *:before, *:after {
+	box-sizing: border-box !important;
+}
+/* #profileDescription row{
+   
+    display: inline-block;
+} */
+.profilebox {
+	width: 350px;
+	height: 400px;
+	background: #eee;
+	cursor: pointer;
+	float: left;
+	margin: 20px;
+}
+.profilebox1 {
+	background-image: url("{%static 'uphaarImages/rishit.jpg'%}");
+	background-position: center center;
+	background-size: cover;
+	perspective: 450px;
+	position: relative;
+    width: 15rem;
+    height: 18rem;
+}
+.profilebox2{
+    background-image: url("uphaarImages/vishal.jpg");
+    background-position: center center;
+	background-size: cover;
+	perspective: 450px;
+	position: relative;
+    width: 15rem;
+    height: 18rem;
+}
+.profilebox3{
+    background-image: url("uphaarImages/rajee.jpg");
+    background-position: center center;
+	background-size: cover;
+	perspective: 450px;
+	position: relative;
+    width: 15rem;
+    height: 18rem;
+}
+.profilebox .SocialIcons {
+	display: flex;
+	flex-direction: column;
+	left: 0;
+	opacity: 0;
+	position: absolute;
+	top: 15px;
+	transform: rotateY(90deg);
+	transform-origin: left center 0;
+	transition: all 350ms ease;
+}
+.profilebox .SocialIcons a {
+	background: #ff0000 none repeat scroll 0 0;
+	font-size: 20px;
+	height: 50px;
+	margin-bottom: 1px;
+	position: relative;
+	text-align: center;
+	width: 50px;
+}
+.profilebox .SocialIcons a i {
+	left: 50%;
+	position: absolute;
+	top: 50%;
+	transform: translateX(-50%) translateY(-50%);
+}
+.profilebox .SocialIcons a:nth-child(1) {
+}
+.profilebox .SocialIcons a:nth-child(2) {
+}
+.profilebox .SocialIcons a:nth-child(3) {
+}
+.profilebox:hover .SocialIcons {
+	opacity: 1;
+	left: 15px;
+	transform: rotateY(0deg);
+}
+.profilebox .profileInfo {
+	background: #ffffff none repeat scroll 0 0;
+	bottom: 0;
+	height: 50px;
+	left: 0;
+	margin: 0 auto;
+	position: absolute;
+	right: 0;
+	width: 90%;
+	transform: rotatex(90deg);
+	transform-origin: bottom center 0;
+	transition: all 350ms ease;
+	opacity: 0;
+}
+.profilebox .profileInfo h3 {
+	font-size: 20px;
+	margin: 15px 0;
+	text-align: center;
+}
+.profilebox:hover .profileInfo {
+	opacity: 1;
+	bottom: 15px;
+	transform: rotatex(0deg);
+}
+
+a {
+    color:#ffffff;
+    text-decoration:none;
+  }
+  * {
+    outline:0;
+    
+  }
+  .profileInfo{
+    color: black;
+  }
+  .teamHeading{
+   margin-top: 30px;
+   color: #ffffff;
+  }
+  #team-info{
+    margin: 10rem 0;
+    /* background-color: rgb(44, 57, 135); */
+    background-image: url("uphaarImages/504227839.jpg");
+    padding-top: 1px;
+    background-position: center center;
+	background-size: cover;
+	perspective: 450px;
+	position: relative;
+  }
+  
+  
